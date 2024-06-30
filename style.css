@@ -1,0 +1,147 @@
+body {
+    background-color: #FDF0E9;
+    font-family: Epilogue;
+}
+
+header {
+    background-color: #29283e;
+    height: 400px;
+}
+
+.nav-container {
+    width: 1440px;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+    padding: 0 135px;
+}
+
+.logo {
+    width: 152px;
+    height: 48px;
+    /* top: 16px;
+left: 135px; */
+    gap: 0px;
+    opacity: 0px;
+}
+
+nav {
+    display: flex;
+    width: 400px;
+    float: left;
+    height: 70px;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-list  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 0 !important;
+}
+
+.nav-list li {
+    color: white;
+    list-style: none;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.text {
+    width: 138px;
+    height: 48px;
+    top: 16px;
+    left: 1167px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.texts {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Epilogue;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: -2px;
+}
+
+.paragraph {
+    color: lightgray;
+    text-align: center;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 16px;
+    height: 250px;
+}
+
+.image-tab{
+    display:flex;
+    gap:45px;
+    list-style-type: none;
+}
+
+.image-container {
+    margin: 70px 0;
+}
+
+.first-image {
+    max-width: 1110px;
+}
+.Button-center{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+.button {
+    background-color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button.active {
+  background-color: #ff6f6f;
+  color: white;
+}
+.dream-section { 
+    background-color:#EF6D58;
+    width: 1170px;
+    height: 544px;
+    top: 2432px;
+    left: 135px;
+    gap: 0px;
+    opacity: 0px;
+} 
+.color-image {
+
+}
